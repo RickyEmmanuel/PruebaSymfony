@@ -1,0 +1,7 @@
+usuarios_homepage:
+    path:     /ingreso
+    defaults: { _controller: UsuariosBundle:Default:index }  
+
+usuarios_registro:
+    path:     /registro
+    defaults: { _controller: UsuariosBundle:Default:registro }   

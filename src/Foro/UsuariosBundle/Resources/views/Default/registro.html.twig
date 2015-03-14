@@ -1,0 +1,28 @@
+{% extends '::base.html.twig' %}
+{% block body%}
+
+<br/>
+<h1 align="center">Registro de Usuarios<small>&nbsp;&nbsp;Comienza a compartir ahora!!</small></h1>
+<br/>
+<div class="container">
+<center>
+<form class="formularioIngreso" action="{{path('usuarios_registro')}}" method="post">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Correo Electrónico</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su correo" name="correo">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="clave">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Repita su contraseña">
+  </div>   
+   <button type="submit" class="btn btn-primary">Completar Registro</button>
+   </a>
+</form>
+</center><br/>
+<img src="/imagenes/imgRegistro.png" class="img-responsive" alt="Responsive image">
+</div>
+{% endblock %}

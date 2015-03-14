@@ -1,0 +1,8 @@
+bd:
+    resource: "@bdBundle/Resources/config/routing.yml"
+    prefix:   /
+
+usuarios:
+    resource: "@UsuariosBundle/Resources/config/routing.yml"
+    prefix:   /
+
